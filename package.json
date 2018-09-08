@@ -1,0 +1,26 @@
+{
+  "name": "pub2",
+  "version": "1.0.0",
+  "description": "pub2",
+  "main": "index.js",
+  "scripts": {
+    "d": "webpack-dev-server --mode development --open",
+    "p": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksandrmajlo/pub2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleksandrmajlo/pub2/issues"
+  },
+  "homepage": "https://github.com/aleksandrmajlo/pub2#readme",
+  "devDependencies": {
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
