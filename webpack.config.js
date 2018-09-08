@@ -33,16 +33,20 @@ let conf = {
             chunkFilename: "[id].css"
         })
     ],
+    */
     module: {
         rules: [
+            /*
             {
                 test: /\.vue$/,
                 loader: 'vue-loader'
             },
+            */
             {
                 test: /\.js$/,
                 loader: 'babel-loader',
             },
+            /*
             {
                 test: /\.s[a|c]ss$/,
                 use: [
@@ -51,9 +55,11 @@ let conf = {
                     'sass-loader'
                 ]
             }
+            */
 
         ]
     },
+    /*
     resolve: {
         alias: {
             vue: 'vue/dist/vue.js'
