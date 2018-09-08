@@ -1,1 +1,1 @@
-alert(11111)
+import Vue from 'vue'
